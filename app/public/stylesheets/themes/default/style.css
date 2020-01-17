@@ -11,7 +11,7 @@
   border: 1px solid black;
 }
 
-.default-theme .middle { 
+.default-theme .middle {
   vertical-align: middle;
 }
 
@@ -78,7 +78,7 @@
   font-weight: bold;
 }
 
-.default-theme .flex-item .project-definition-separator {
+.default-theme .flex-item .project-branch-separator {
   border-left: 1px solid;
   padding-left: 10px;
   margin-left: 10px
