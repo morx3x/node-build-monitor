@@ -106,6 +106,15 @@ define(['ko', 'notification', 'BuildViewModel', 'OptionsViewModel'], function (k
                         notification.show(build);
                     }
                 }
+
+                if (build.status === 'Green') {
+                    if (self.options.soundNotificationEnabled()) {
+                        // make success sound
+                        // var audio = new Audio('/audio/woop.mp3');
+                        // audio.play();
+                    }
+                }
+
             });
 
             changes.order.forEach(function (id, index) {
