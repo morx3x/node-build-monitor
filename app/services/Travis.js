@@ -55,6 +55,7 @@ module.exports = function () {
                 id: self.configuration.slug + '|' + res.number,
                 project: self.configuration.slug,
                 number: res.number,
+                branch: res.branch,
                 isRunning: res.state === 'started',
                 startedAt: parseDate(res.started_at),
                 finishedAt: parseDate(res.finished_at),
